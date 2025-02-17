@@ -1,3 +1,5 @@
-p, h1, h2 {
+p, h1, h2, li, ol, pre, code {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
