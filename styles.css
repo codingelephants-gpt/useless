@@ -3,3 +3,15 @@ p, h1, h2, li, ol, pre, code {
   margin: 0;
   padding: 0;
 }
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+code {
+  font-family: "Courier New", monospace;
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
