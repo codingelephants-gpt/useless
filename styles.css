@@ -4,12 +4,13 @@ p, h1, h2, li, ol, pre, code {
   padding: 0;
 }
 pre {
-  background-color: #f4f4f4;
+  background-color: #6e6b6b;
   padding: 10px;
   border-radius: 5px;
   overflow-x: auto;
 }
 code {
+  color: white
   font-family: "Courier New", monospace;
   background-color: #eee;
   padding: 2px 5px;
