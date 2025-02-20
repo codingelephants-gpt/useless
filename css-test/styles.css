@@ -1,7 +1,10 @@
 body {
-    background-color: #6e9dfa;
+  background-color: #6e9dfa;
 }
-h1, h2, p {
+
+h1,
+h2,
+p {
   color: white;
   text-align: center;
 }
