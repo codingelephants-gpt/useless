@@ -1,13 +1,25 @@
+.wback {
+  background-color: #5f8ade;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  height:750px;
+}
+
 body {
   background-color: #6e9dfa;
 }
 
-h1,
 h2,
 p {
   color: white;
+  font-family: arial, sans-serif;
   text-align: center;
 }
-.wback {
-  background-color: #5f8ade;
+
+h1 {
+  color: white;
+  font-family: arial, sans-serif;
+  text-align: center;
 }
