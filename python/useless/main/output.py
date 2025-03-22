@@ -3,7 +3,8 @@
 # 0.0.1: 23/03/2025
 #     File created
 #     Added emptylines function
-
+#     Added Print function as it is a well-known function and part of outputting items to the console
+#     Added testing environment
 
 def emptylines(n: int) -> None:
     """Prints {n} empty lines.
@@ -28,3 +29,8 @@ def Print(*objs, sep=' ', end='\n', file=None, flush=False) -> None:
     """
     print(*objs, sep=sep, end=end, file=file, flush=flush)
     return None
+
+# Testing environment
+if __name__ == "__main__":
+    Print("This is", "a test")
+    emptylines(3)
