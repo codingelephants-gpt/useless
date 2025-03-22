@@ -5,6 +5,7 @@
 #     Added emptylines function
 #     Added Print function as it is a well-known function and part of outputting items to the console
 #     Added testing environment
+#     Added editLast function
 
 def emptylines(n: int) -> None:
     """Prints {n} empty lines.
@@ -38,7 +39,7 @@ def editLast(text: str) -> None:
         None
     """
 
-    print("\033[F\033[K", end="")  # Move cursor up and clear the line
+    print("\033[F\033[K", end="")
     print(text)
     return None
 
