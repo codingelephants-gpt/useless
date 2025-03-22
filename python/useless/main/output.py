@@ -30,6 +30,18 @@ def Print(*objs, sep=' ', end='\n', file=None, flush=False) -> None:
     print(*objs, sep=sep, end=end, file=file, flush=flush)
     return None
 
+def editLast(text: str) -> None:
+    """Edits the last line of the console.
+    Args:
+        text (str): Text to replace the last line with
+    Returns:
+        None
+    """
+
+    print("\033[F\033[K", end="")  # Move cursor up and clear the line
+    print(text)
+    return None
+
 # Testing environment
 if __name__ == "__main__":
     Print("This is", "a test")
